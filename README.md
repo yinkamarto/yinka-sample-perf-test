@@ -1,6 +1,6 @@
-# clickup-sample-perf-test
+# yinka-sample-perf-test
 
-A simple locust based performance test(with a little bit of unit test) used for ClickUp interview. This project starts a web and db service and triggers a stress test on the service via a task api endpoint which inserts new task rows into the db. This also showcases test automation using github workflows by triggering test runs on every commit push to Github using events.
+A simple locust based performance test(with a little bit of unit test) used for interviews. This project starts a web and db service and triggers a stress test on the service via a task api endpoint which inserts new task rows into the db. This also showcases test automation using github workflows by triggering test runs on every commit push to Github using events.
 
 ## How to Run locally
 
@@ -26,4 +26,4 @@ A simple locust based performance test(with a little bit of unit test) used for 
 1. Install act https://nektosact.com/ using `curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/nektos/act/master/install.sh | sudo bash`
 2. Run github workflows:
    1. Run all github workflows using `./bin/act` OR
-   2. Run specifiv workflow using `./bin/act -W .github/workflows/unit-test.yaml`
+   2. Run specific workflow using `./bin/act -W .github/workflows/unit-test.yaml`

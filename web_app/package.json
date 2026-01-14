@@ -1,5 +1,5 @@
 {
-  "name": "clickup_test_project",
+  "name": "perf_test_project",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {

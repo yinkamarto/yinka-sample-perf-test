@@ -2,7 +2,7 @@
     FROM node:18-alpine
 
     # Set the working directory inside the container
-    WORKDIR /clickup_test_project
+    WORKDIR /perf_test_project
 
     ARG DATABASE_URL="postgresql://db_user:password@db:5432/web_app_db"
 
